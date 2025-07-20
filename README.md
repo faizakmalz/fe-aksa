@@ -1,12 +1,23 @@
-# React + Vite
+# 📚 LocalStorage Book Manager (Frontend Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based application for managing a list of books (or employees) using `localStorage`. This app was created as a test/demo project — no backend or API required.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add, edit, delete books
+- 💾 Data persistence via `localStorage`
+- 🖼️ Optional image preview
+- 🔍 Search functionality
+- 📱 Responsive UI with Tailwind CSS
+- 🌙 Light/Dark mode support
+- ⚡ Built with Vite for fast performance
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Layer       | Technology        |
+|-------------|-------------------|
+| Framework   | React (with Hooks)|
+| Styling     | Tailwind CSS      |
+| Build Tool  | Vite              |
+| State/Data  | useState + localStorage |
+| Deployment  | Netlify (or any static host) |
